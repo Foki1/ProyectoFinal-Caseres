@@ -1,0 +1,11 @@
+[
+    { "id": 1, "nombre": "Sierra nevada de Santa Marta", "origen": "Colombia", "variedad": "Arabica", "descripcion": "El café colombiano siempre se ha destacado por su alta calidad. De toques ácidos y amargos, tiene un sabor a caramelo y a pan tostado."},
+    { "id": 2, "nombre": "Moka", "origen": "Yemen", "variedad": "Arabica", "descripcion": "Tiene una baja acidez baja y su sabor recuerda al chocolate, es por ello que se suele llamar moca a la preparación de café con chocolate." },
+    { "id": 3, "nombre": "Tarrazú", "origen": "Costa Rica", "variedad": "Arabica", "descripcion": "A diferencia del café moka, esta variedad es más ácida, con mucho más cuerpo y la capacidad de llenar el paladar. Su sabor recuerda al chocolate y tiene toques de madera. " },
+    { "id": 4, "nombre": "Java", "origen": "Indonesia", "variedad": "Arabica", "descripcion": "Este tipo de grano es uno de los más reputados y demandados después del Moka. De sabor fuerte, algo picante y con toques dulces." },
+    { "id": 5, "nombre": "Kenya", "origen": "Kenia", "variedad": "Arabica", "descripcion": "Su sabor y aroma es intenso y complejo, con toques a frutos del bosque y ciertos toques ácidos." },
+    { "id": 6, "nombre": "Conilón", "origen": "África Occidental y Brasil", "variedad": "Robusta", "descripcion": "Café con gran concentración de cafeína, con una calidad intermedia. Se cultiva en zonas de baja altitud y es muy tolerante a plagas y sequías."},
+    { "id": 7, "nombre": "Kouilloi", "origen": "Gabon", "variedad": "Robusta", "descripcion": "Este tipo de planta de menor altura tiene mayor número de cojines florales y cerezas, y una duración pareja al grano"},
+    { "id": 8, "nombre": "Niaouli", "origen": "Costa de Marfil", "variedad": "Robusta", "descripcion": "Este café constituye un 30 % de la producción mundial. Esta especie es inmune a los hongos y se trata en seco principalmente"},
+    { "id": 9, "nombre": "Uganda", "origen": "Uganda", "variedad": "Robusta", "descripcion": "Los cafés de Uganda tienen un sabor potente y característico. En cuanto a los cafés Robusta que son cultivados en el país, estos convencen por sus aromas a especias y su poca acidez."}
+  ]

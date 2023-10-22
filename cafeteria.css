@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lato:ital@1&family=Roboto&display=swap');
+/**
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+**/
+
+ h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: #C02425;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+}    
+.propiedadesh2, .propiedadesh3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #312e2e;
+    text-shadow: 2px 2px 5px rgb(250, 250, 250);
+}    
+
+.variedades {
+    font-family: 'Fredericka the Great', cursive;
+    color: #C02425;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+}    
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBoton {
+    color: white;
+    background-color:#C02425;
+}
+
+.colorBoton:hover {
+    background: linear-gradient(to top, #C02425,#fba2bf);
+    color: white;
+}
+.cafeteriaBody {
+    background-image: url(./assets/img/espresso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    width: 100%;
+}
+.atencion {
+    -webkit-animation: vibrate-1 0.8s linear infinite both;
+    animation: vibrate-1 0.8s linear infinite both;
+}
+.atencion a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+@-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+
+.coffeInfoBody {
+    background-image: url(./assets/img/granos-de-cafe-png.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top, right;
+    height: max-content;
+    width: 100%;
+}
